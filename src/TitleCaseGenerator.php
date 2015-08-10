@@ -9,11 +9,12 @@ class TitleCaseGenerator
 	    $input_array_of_words = explode(" ", $input_title);
 	    $output_titlecased = array();
 	    foreach ($input_array_of_words as $word) {
-			if(in_array($word, $reserved_word)) {
+			if (in_array($word, $reserved_word)) {
 				array_push($output_titlecased, lcfirst($word));
 			} else {
 				array_push($output_titlecased, ucfirst($word));
 			}
+		//	if (preg_match(/[A-Z](ac|c)[A-Za-z]|([A-Z]'[A-Za-z])/g, $word)) {}
 		}
 		$output_titlecased[0] = ucfirst($output_titlecased[0]);
 
