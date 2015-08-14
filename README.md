@@ -2,7 +2,7 @@
 
 ##### _change the first lower-case letter(s) of a word or phrase into a capitol letter, 8/9/2015_
 
-#### By Charles Moss
+#### By  Joe Hartman & Charles Moss
 
 ## Description
 
@@ -31,7 +31,7 @@ _Learn more about tests._
 
 
 
-Copyright (c) 2015 Charles A Moss
+Copyright (c) 2015  Joe Hartman & Charles A Moss
 
 This software is licensed under the MIT license.
 
